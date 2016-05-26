@@ -7,7 +7,7 @@ npm install
 - xml2js
 
 ## configuration
-Get your Station ID from http://m.stib.be/api/getitinerary.php?line=XX where XX is a line number. Check the station id in the resulting xml.
+Get your Station IDs from http://m.stib.be/api/getitinerary.php?line=XX&iti=Y where XX is a line number and Y is 1 or 2 (for one or return way). Check the station ids in the resulting xml.
 ```
 modules: [
     {
@@ -15,7 +15,14 @@ modules: [
         config: {
             // add station ID
             //default = 0
-            station: 0
+            stations: [
+                       {name:"Trone",
+                        id:[8302,8301]
+                       },
+                       {name:"Luxembourg",
+                        id: [1131,1162]
+                       }
+                      ] 
         }
     }
 ]
