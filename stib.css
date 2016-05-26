@@ -1,0 +1,38 @@
+.swisstransport {
+    font-size: 75%;
+    line-height: 65px;
+    display: inline-block;
+    -ms-transform: translate(0, -3px); /* IE 9 */
+    -webkit-transform: translate(0, -3px); /* Safari */
+    transform: translate(0, -3px);
+}
+
+.swisstransport table {
+    width: 400px;
+}
+
+.swisstransport .red {
+    color: #FF0000
+}
+
+.stopname {
+    text-align: left;
+    column-span: 3; /* W3C */
+    -webkit-column-span: 3; /* Safari & Chrome */
+    -moz-column-span: 3; /* Firefox */
+    -ms-column-span: 3; /* Internet Explorer */
+    -o-column-span: 3; /* Opera */
+}
+
+.stib .destination {
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 75%;
+    width: 80%;
+}
+
+.stib .minutes {
+    padding-left: 5px;
+    padding-right: 1px;
+    font-size: 75%;
+}
