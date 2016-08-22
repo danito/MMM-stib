@@ -5,6 +5,7 @@ MagicMirror Module to display the next transports for any given STIB station
 npm install
 - request
 - xml2js
+(npm install -g request && npm install -g xml2js)
 ## install
 clone or download and extract MMM-Stib to MagickMirror/modules/stib (rename the folder).
 
